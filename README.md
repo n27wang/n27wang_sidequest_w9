@@ -1,6 +1,6 @@
 ## Project Title
 
-GBDA302 Side Quest Week 6
+GBDA302 Side Quest Week 9
 
 ---
 
@@ -10,52 +10,43 @@ Nick Wang (21064962)
 
 ## Description
 
---- This project is a small tile-based platformer created using p5.js and p5.play. The goal of the project was to explore how tile maps, sprite animations, and physics interactions can be combined to build a simple interactive game environment.
+This project is a tile-based platformer built using p5.js and p5.play, expanded from my Week 6 side quest. The player controls a fox character that can move, jump, attack enemies, and collect items within a small game environment.
 
-The player controls a fox character that can move, jump, and attack enemies while collecting items placed throughout the level. The level layout is generated using a tile map system, which allows ground and environment tiles to be placed efficiently. The project also integrates sound effects such as footsteps, jumping, attacking, collecting items, and background music to create a more immersive experience.
-
-Through this project, I experimented with combining visual assets, animation systems, and sound feedback to create a cohesive interactive scene.
+In this version, I added a debug system that allows real-time control of gameplay features such as gravity, invincibility, and hitbox visualization. I also implemented a second level to extend the gameplay experience and increase difficulty. Sound effects and background music were integrated to enhance immersion and feedback.
 
 ## Learning Goals
 
-- To understand how tile-based level systems work and how tile maps can be used to construct environments efficiently.
-- To practice implementing sprite animations using a sprite sheet for different player states such as idle, running, jumping, and attacking.
-- To integrate sound effects and background music into an interactive p5.js project.
-- To explore how physics and collision detection can be used to support player movement and interaction with the environment.
-- To gain experience organizing a small game project with assets, scripts, and libraries.
+To understand how to build and manage a tile-based level system using arrays
 
----
+To implement sprite animations for different player states (idle, run, jump, attack)
+
+To integrate sound effects and background music using p5.sound
+
+To explore how debug tools can support testing and development
+
+To extend a game by adding multiple levels and reusable logic
 
 ## Asset Credits
 
-Player Sprite:
-Fox sprite sheet from OpenGameArt
+To understand how to build and manage a tile-based level system using arrays
 
-Tileset:
-Oak Woods Tileset from OpenGameArt  
-https://opengameart.org/content/sewer-tileset
+To implement sprite animations for different player states (idle, run, jump, attack)
 
-Sound Effects:
-Jump / attack / collect / damage sounds
-https://opengameart.org/content/cute-cartoon-jump-sound-effect
-https://opengameart.org/content/attack-miss-or-hit-sounds2
-https://opengameart.org/art-search?keys=collect  
-https://opengameart.org/content/damage-sounds-male-audio-pack
+To integrate sound effects and background music using p5.sound
 
-Background Music:
-Looping background music
-https://opengameart.org/content/too-cool-for-words-eric-matyas-zodik-stumpystrust
+To explore how debug tools can support testing and development
 
----
+To extend a game by adding multiple levels and reusable logic
 
 ## Libraries Used
 
-- p5.js
-- p5.sound
-- p5play
-- planck.js
+p5.js — core rendering and interaction
 
----
+p5.sound — audio integration
+
+p5.play — sprite handling and collision detection
+
+Planck.js — physics engine
 
 ## Controls
 
